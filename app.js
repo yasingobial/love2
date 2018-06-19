@@ -17,4 +17,4 @@ app.use('/uploads',express.static(__dirname + '/uploads/'));
 var a = ip.address();
 console.log(a);
 require('./routes')(app);
-app.listen(process.env.PORT || 8081);
+app.listen(process.env.PORT || 8082);
